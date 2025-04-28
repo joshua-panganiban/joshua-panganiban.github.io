@@ -27,6 +27,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
+    border: 1px solid #ccc;
 }
 
 .contact-right form {
@@ -54,7 +55,7 @@ body.dark-mode .form-group label {
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #ddd;
-    font-family: 'Lexend', sans-serif; /* or inherit from body */
+    font-family: 'Lexend', sans-serif; 
 }
 .form-group textarea {
     height: 150px;
@@ -63,7 +64,7 @@ body.dark-mode .form-group label {
 
 .submit-button {
     padding: 12px 20px;
-    background-color: #007BFF; /* Bootstrap primary blue */
+    background-color: #007BFF; 
     color: white;
     font-size: 1rem;
     border: none;
@@ -73,11 +74,11 @@ body.dark-mode .form-group label {
 }
 
 .submit-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3; 
 }
 
 .g-recaptcha {
-    margin-bottom: 20px; /* Adjust the value as needed */
+    margin-bottom: 20px; 
   }
 
 #response-message {

@@ -35,6 +35,7 @@ body.dark-mode .about-section {
     width: 100%;
     max-width: 300px;
     border-radius: 30px;
+    border: 1px solid #ccc;
 }
 
 /* .photo, .info {
@@ -64,7 +65,7 @@ body.dark-mode .about-section {
 }
 
 .social-icons a:hover {
-    color: #3498db; /* Change color on hover */
+    color: #3498db; 
 }
 
 .about h2,

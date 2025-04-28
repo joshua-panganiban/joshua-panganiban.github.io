@@ -30,10 +30,9 @@ a {
 }
 
 a:hover {
-    color: #3498db; /* Change color on hover */
+    color: #3498db; 
 }
 
-/* Button Styling */
 button, .btn {
     background-color: #3498db;
     color: white;
@@ -84,7 +83,6 @@ header {
     padding: 0 20px;
 }
 
-/* Logo on the left */
 .logo {
     color: white;
     text-decoration: none;
@@ -117,7 +115,6 @@ header {
   cursor: pointer;
 }
 
-/* Center nav absolutely */
 .nav-center {
     position: absolute;
     left: 50%;
@@ -126,7 +123,6 @@ header {
     gap: 25px;
 }
 
-/* Nav links */
 .nav-center a {
     color: white;
     text-decoration: none;
@@ -154,7 +150,7 @@ body.dark-mode h3,
 body.dark-mode h4,
 body.dark-mode h5,
 body.dark-mode h6 {
-    color: #a8d0e6; /* Or white, or any light tone that fits your style */
+    color: #a8d0e6;
 }
 
 body.dark-mode p {
@@ -197,10 +193,9 @@ body.dark-mode p {
     transform: translateY(0);
 }
 
-/* Show hamburger on small screens */
 @media screen and (max-width: 850px) {
     .hamburger {
-        display: block;  /* Display the hamburger on small screens */
+        display: block;  
     }
 
     .nav-center {
@@ -221,15 +216,13 @@ body.dark-mode p {
     background-color: #333;
     color: white;
     padding: 12px 0;
-    /* Remove side padding */
-    /* border-top: 1px solid #ccc; */
+
     font-size: 0.85rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     width: 100%;
-    /* Ensure it spans across the whole width */
 }
 
 footer.dark-mode {
@@ -240,12 +233,10 @@ footer.dark-mode {
     width: 100%;
     max-width: 90%;
     margin: 0 auto;
-    /* Center content */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
-    /* Increase gap for better spacing */
     flex-wrap: wrap;
 }
 
@@ -253,23 +244,20 @@ footer.dark-mode {
     flex: 2;
     text-align: left;
     margin-right: 2rem;
-    /* Increase margin on the right side */
 }
 
 .footer-social {
     flex: 2;
     display: flex;
     flex-direction: column;
-    /* Split into multiple lines */
     justify-content: center;
     gap: 0.25rem;
-    /* Reduced gap between social items */
 }
 
 .footer-social-links {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem; /* space between each link */
+    gap: 0.25rem; 
   }
 
 .footer-social a {
@@ -287,9 +275,7 @@ footer.dark-mode {
     flex: 3;
     text-align: left;
     font-style: italic;
-    /* margin-top: 1rem; */
     font-size: 0.85rem;
-    /* color: #aaa; */
 }
 
 .footer-nav {
@@ -300,7 +286,6 @@ footer.dark-mode {
 
 .footer-nav a {
     color: #3399ff;
-    /* Accent color for navigation links */
     text-decoration: none;
     margin: 0.5rem 0;
 }
@@ -316,7 +301,6 @@ footer.dark-mode {
     width: 100%;
     text-align: right;
     margin-right: 0;
-    /* Ensure it's on the far right */
 }
 
 .footer a {
@@ -336,13 +320,11 @@ footer.dark-mode {
 
 .footer-social i {
     font-size: 1.2rem;
-    /* For icons */
 }
 
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
-        /* align-items: center; /* Center all content */
     }
 
     .footer-main,
@@ -391,7 +373,6 @@ footer.dark-mode {
         margin: 0 0;
     }
 
-    /* Make sure the footer copy stays centered in mobile view */
     .footer-copy {
         margin-right: auto;
     }
