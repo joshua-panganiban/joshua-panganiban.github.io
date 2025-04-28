@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Panganiban</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel = "stylesheet" href="../CSS/style.css">
+    <link rel = "stylesheet" href="../CSS/research.css">
+</head>
+<body>
+    <?php include 'navbar.php'; ?>
+
+    <main class="research-section">
+    
+        <h2 class="section-heading">Journal Publications</h2>
+        <div class="category-container">
+            <section>
+                <div class="publication">
+                    <h3>Development of a Large-scale Agent-based Economic Simulator for High-resolution Simulation of
+                        Post-disaster Economies</h3>
+                    <p><u>Joshua Panganiban</u>, Amit Gill, Lalith Maddegedara, Muneo Hori, Tsuyoshi Ichimura, and Kohei Fujita
+                    </p>
+                    <p>Journal of Japan Association for Earthquake Engineering, Vol. 25, No. 4, 2025</p>
+                    <p><strong>DOI:</strong> <a href="https://doi.org/10.5610/jaee.25.4_164"
+                            target="_blank">https://doi.org/10.5610/jaee.25.4_164</a></p>
+                </div>
+            </section>
+        </div>
+    
+        <h2 class="section-heading">Selected Conference Presentations</h2>
+        <div class="category-container">
+            <section>
+                <div class="publication">
+                    <h3>DEM simulation of simple shear tests of a sandbag used in T-BAGS system</h3>
+                    <p><u>Joshua Panganiban</u>, Dai Cong Doan, Ali Vakilazadsarabi, Kinji Takeuchi, Yasuo Tomono, and Tatsunori
+                        Matsumoto</p>
+                    <p>60th Japan National Conference on Geotechnical Engineering, Yamaguchi, Japan, July 22-25, 2025 <em>(upcoming)</em></p>
+                    <p>
+                        <strong>Link:</strong>
+                        <a href="https://pub.confit.atlas.jp/ja/event/jgs60"
+                        target="_blank">Conference website</a>, 
+                        <a href="../pdf/JGS-2025_DEM-ExtAbstract.pdf"
+                        target="_blank">Extended Abstract</a>
+                    </p>
+                </div>
+    
+                <div class="publication">
+                    <h3>Development of an HPC-enhanced code for agent-based simulation of large economies in 1:1 scale</h3>
+                    <p>Maddegedara Lalith, <u>Joshua Panganiban</u>, Amit Gill, Sebastian Poledna, Yoshiki Ogawa, Kohei
+                        Fujita, and Tsuyoshi Ichimura</p>
+                    <p>31st International Conference Computing in Economics and Finance, University of Chile, Santiago,
+                        Chile, July 7-9, 2025 <em>(upcoming)</em></p>
+                        <p>
+                        <strong>Link:</strong>
+                        <a href="https://comp-econ.com/31st-conference/"
+                        target="_blank">Conference website</a>, 
+                        <a href="../pdf/CEF-2025_HPCABM-Abstract.pdf"
+                        target="_blank">Abstract</a>
+                    </p>
+                </div>
+    
+                <div class="publication">
+                    <h3>Discrete Element Modeling of T-BAGS and Applications to Low-cost Seismic Vibration Reduction in
+                        Structures</h3>
+                    <p><u>Joshua Panganiban</u>, Ali Vakilazadsarabi, Kinji Takeuchi, Yasuo Tomono, and Tatsunori Matsumoto</p>
+                    <p>10th International Conference on Computational Methods in Structural Dynamics and Earthquake
+                        Engineering, Rhodes Island, Greece, June 15-18, 2025 <em>(upcoming)</em></p>
+                    <p>
+                        <strong>Links:</strong>
+                        <a href="https://2025.compdyn.org/"
+                        target="_blank">Conference website</a>,
+                        <a href="../pdf/COMPDYN-2025_DEM_Abstract.pdf"
+                        target="_blank">Abstract</a>, 
+                        Full paper: available upon request.
+                    </p>
+                </div>
+
+                <div class="publication">
+                    <h3>Development of a 1:1 scale Multi-region Agent-based Economic Model for Estimating Economic Impacts of Infrastructure Damages</h3>
+                    <p>Amit Gill, <u>Joshua Panganiban</u>, Maddegedara Lalith, and Manabu Kawashima</p>
+                    <p>International Association for Bridge and Structural Engineering (IABSE) Symposium Tokyo, May 18-21, 2025 <em>(upcoming)</em></p>
+                    <p>
+                        <strong>Links:</strong>
+                        <a href="https://www.iabse.org/Tokyo2025"
+                        target="_blank">Conference website</a>,
+                        <a href="../pdf/IABSE-Tokyo-2025_MR-ABEM.pdf"
+                        target="_blank">Full paper</a>
+                    </p>
+                </div>
+    
+                <div class="publication">
+                    <h3>Towards High-resolution Simulation of Post-disaster Economies Utilizing Firm-level Data</h3>
+                    <p><u>Joshua Panganiban</u>, Amit Gill, Lalith Maddegedara, Yoshiki Ogawa, Muneo Hori, Tsuyoshi
+                        Ichimura, and Kohei Fujita</p>
+                    <p>International Conference on Big Data for Disaster Response and Management in Asia and the Pacific,
+                        Sendai, Japan, February 15-17, 2024</p>
+                    <p>
+                        <strong>Links:</strong>
+                        <a href="https://adb.eventsair.com/big-data-for-disaster-response-and-management-in-asia-and-the-pacific/"
+                        target="_blank">Conference website</a>, 
+                        <a href="../pdf/ADB-BigData-2024_ABEM-FirmLevel.pdf"
+                        target="_blank">Abstract</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    
+        <h2 class="section-heading">Technical Reports</h2>
+        <div class="category-container">
+            <section>
+                <div class="publication">
+                    <h3>Roadmap and Tools for Managing Complex Emergencies in Quezon City</h3>
+                    <p>Conduct of an Updated Climate and Disaster Risk Assessment for Quezon City, Philippines</p>
+                    <p>Earthquakes and Megacities Initiative, December 2022</p>
+                    <p>
+                        <strong>Links:</strong>
+                        <a href="https://www.facebook.com/QCGov/posts/pfbid02w2Kn5FK4w45C7VwbvmrhYgwdqbJTZprdEPwmkfkQ4TW1rueQQ9keYmU7gUNxk68Rl"
+                        target="_blank">Quezon City Government Facebook Page</a>, 
+                        <a href="https://emi-megacities.org/projects#qccdra"
+                        target="_blank">EMI Project Webpage</a>
+                    </p>
+                </div>
+            </section>
+        </div>
+    
+    </main>
+    
+    <?php include 'footer.php'; ?>   
+    
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

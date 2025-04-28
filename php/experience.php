@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Panganiban</title>
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel = "stylesheet" href="../CSS/style.css">
+    <link rel = "stylesheet" href="../css/timeline.css">
+</head>
+<body>
+    <?php include 'navbar.php'; ?>
+
+    <div class="timeline" style="--line-height: 0px;">
+        <div class="timeline-container left-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>Takeuchi Construction Inc.</h2>
+                    <p><strong>Research Engineer</strong> | November 2023 – Present</p>
+                    <ul>
+                        <li>Spearheaded two major R&D projects from proposal to execution:
+                            <ol>
+                                <li>Discrete Element Modeling (DEM) of T-BAGS, a patented seismic control system, leading to more than 75% reduction in laboratory testing costs. </li>
+                                <li>Neural network-enhanced Topology Optimization of TNF, a patented ground improvement method, improving material efficiency by 10%.</li>
+                            </ol>
+                        </li>
+                        <li>Initiated and led the use of high-performance computing (using OpenMP and CUDA) in the DEM framework, achieving up to 50x simulation speedup.</li>
+                        <li>Designed and implemented various automation scripts using C++ and Python, increasing production speed by more than 20x.</li>
+                        <li>Developed custom tools to visualize structural response of buildings with and without T-BAGS, used in internal evaluation and stakeholder demos.</li>
+                        <li>Authored multiple research submissions to conferences including:
+                            <ol>
+                                <li>International Conference on Computational Methods in Structural Dynamics and Earthquake Engineering (COMPDYN2025)</li>
+                                <li>60th Japan Geotechnical Society Conference</li>
+                            </ol>
+                        </li>
+                        <li>Conducted feasibility and strategy studies on engineering service exports, and supported company's overseas expansion planning.</li>
+                    </ul>
+                </div>
+                <button class="show-more-btn">Show More</button>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="timeline-container right-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>Earthquake Research Institute, The University of Tokyo</h2>
+                    <p><strong>Independent Research Collaborator</strong> | October 2023 – Present</p>
+                    <p><strong>Graduate International Research Student</strong> | October 2021 – September 2023<>
+                    
+                    <ul>
+                        <li>Developed an HPC-enhanced agent-based economic simulator capable of processing millions of agent interactions in under 2 minutes, with performance optimized through parallel programming techniques.</li>
+                        <li>Integrated the model with business data from 1.4 million Japanese firms, achieving high accuracy in replicating observed production data at the national, industrial, and firm levels.</li>
+                        <li>Extended the economic model to a multi-region framework, incorporating regional (prefectural) data across Japan.</li>
+                        <li>Conducted end-to-end simulations of disasters (city-scale earthquake and building response simulation + nation-scale economic simulation) to demonstrate the usage of the developed tool in providing actionable insights for policymakers.</li>
+                        <li>Conference presentations and submissions:
+                            <ul>
+                                <li>Association of Pacific Rim Universities (APRU) Symposium, 2022</li>
+                                <li>International Society for Integrated Disaster Risk Management (IDRiM) Conference, 2022</li>
+                                <li>Japan Earthquake Engineering Symposium (JEES), 2023</li>
+                                <li>International Conference on Big Data for Disaster Response and Management in Asia and the Pacific, 2024</li>
+                                <li>International Association for Bridge and Structural Engineering (IABSE) Symposium Tokyo, 2025</li>
+                                <li>International Conference on Economics and Finance (CEF), 2025</li>
+                            </ul>
+                        </li>
+                        <li>Publication:
+                            <ul><li>Journal of Japan Association for Earthquake Engineering</li></ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="show-more-btn">Show More</button>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="timeline-container left-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+            <div class="text-wrapper">
+                <h2>Earthquakes and Megacities Initiative, Inc.</h2>
+                <p><strong>Research Fellow</strong> | March 2022 – December 2022</p>
+                <ul>
+                    <li>Conducted spatial and data-driven analysis of shelter demand, accessibility, and distribution using population and hazard datasets for Quezon City, Philippines</li>
+                    <li>Produced key recommendations for emergency preparedness planning, incorporated into city-wide disaster management strategies</li>
+                    <li>Authored the Shelter Needs Analysis section of the technical report: Roadmap and Tools for Managing Complex Emergencies</li>
+                    <li>Collaborated with experts in geospatial analytics, risk assessment, and urban policy to contribute to core project components:
+                    <ul>
+                        <li>Risk Profile Atlas (RPA)</li>
+                        <li>Geospatial Exposure Database (GSED)</li>
+                        <li>Hazard, Vulnerability, and Risk Assessment (HVRA)</li>
+                    </ul>
+                    </li>
+                    <li>Research contributed to disaster preparedness and risk-informed planning for 3.1 million residents across 142 barangays, under the direction of Dr. Fouad Bendimerad (EMI Director, former Stanford faculty)</li>
+                </ul>
+                </div>
+                <button class="show-more-btn">Show More</button>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="timeline-container right-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>JGC Holdings Corporation, Manila Office</h2>
+                    <p><strong>Structural Engineer</strong> | January 2019 – July 2021</p>
+                    <ul>
+                        <li>Led structural design, 3D modeling, and preparation of technical reports and detailed drawings for petrochemical facilities</li>
+                        <li>Developed 10+ internal tools for foundation design and 4 drawing automation tools, increasing production speed by over 10×</li>
+                        <li>Conducted business-oriented research on seismic detailing, structural standards, and workflow automation</li>
+                        <li>Key Achievements:
+                            <ul>
+                                <li>Delivered the high-precision design of multi-deck steel structures for Project LNGC, covering structural requirements for both sea and land transport</li>
+                                <li>Selected for the JGC Cadetship Training Program (70 selected from 1,300+ applicants)</li>
+                                <li>Awarded Best Presenter (June 2019) for a technical talk on advanced reinforced concrete design</li>
+                            </ul>
+                        </li>
+                        <li>Projects:
+                            <ul>
+                                <li>Project Harmony (Thailand)</li>
+                                <li>Project LNGC (Canada)</li>
+                                <li>Basrah Refinery Project (Iraq)</li>
+                            </ul>
+                        </li>
+                        <li>Structural Codes: NSCP, ACI, AISC, ASCE, CSA</li>
+                        <li>Software: STAAD.Pro, STAAD Offshore, Navisworks, Excel (VBA)</li>
+                    </ul>
+                </div>
+                <button class="show-more-btn">Show More</button>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="timeline-container left-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+                <div class="text-wrapper">
+                    <h2>Review Innovations, Inc.</h2>
+                    <p><strong>Instructor, Lecturer</strong> | July 2019 – September 2021</p>
+                    <ul>
+                        <li>Served as a part-time instructor at one of Philippines' leading civil engineering review centers, delivering licensure exam preparation lectures to over 1,000 examinees</li>
+                        <li>Combined theoretical instruction with practical insights in engineering to help students build strong conceptual foundations</li>
+                        <li>Focused on enhancing student performance through structured lessons, exam strategies, and mock tests</li>
+                        <li>Subjects Taught:
+                            <ul>
+                                <li>Mechanics of Materials</li>
+                                <li>Geotechnical Engineering</li>
+                                <li>Hydraulics</li>
+                                <li>Engineering Mathematics</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <button class="show-more-btn">Show More</button>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <!-- <div class="timeline-container right-container">
+            <img src="../img/logo.png">
+            <div class="text-box">
+                <h2>123 ic.</h2>
+                <small>aaaa - aaaa</small>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div> -->
+
+
+    </div>
+
+    <script src="../js/timeline.js"></script>
+
+    <?php include 'footer.php'; ?>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

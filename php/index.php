@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Panganiban</title>
+    <!-- <link rel="icon" href="../img/JLP_wt.png" type="image/png"> -->
+    <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel = "stylesheet" href="../CSS/style.css">
+    <link rel = "stylesheet" href="../CSS/about.css">
+    <link rel = "stylesheet" href="../CSS/news.css">
+</head>
+<body>
+    <?php include 'navbar.php'; ?>
+
+    <section id="about" class="about-section">
+        <div class="about-grid">
+            <div class="about-left">
+                <div class="photo">
+                    <img src="../IMG/Joshua_Panganiban.jpg" alt="" class="profile-img">
+                </div>
+                <div class="info">
+                    <h1>Joshua Panganiban</h1>
+                    <p class="title"> Researcher / Engineer</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/joshuapanganiban/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-orcid"></i></a> -->
+                        <a href="https://github.com/joshua-panganiban" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=iz4-CKQAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about">
+                <h2>About me</h2>
+                <div class="about-paragraph">
+                    <p>
+                        Hi, I'm Joshua — thank you for visiting my page!
+                    </p>
+                    <p>
+                        I'm a researcher and engineer with a passion for developing and applying computational methods to solve complex, real-world problems. Solution-oriented and versatile, I enjoy drawing on a wide range of tools and disciplines to tackle multidisciplinary challenges.
+                    </p>
+                    <p>
+                        Currently, I work as a Research Engineer at <a href="https://www.takeuchi-const.co.jp/en/" target="_blank"> <u>Takeuchi Construction, Inc.</u></a>, where I am involved in developing the company's patented construction technologies in seismic base isolation and ground improvement. I primarily lead two projects: (1) The development of a particle-based modeling scheme in simulating the vibration reduction performance of sandbags; and (2) the development of a neural network-enhanced topology optimization framework for foundation systems. These projects aim to deliver more cost-effective and resilient solutions for earthquake-prone areas.
+                    </p>
+                    <p>
+                        Outside of work, I collaborate with my former lab — the <a href="https://www.eri.u-tokyo.ac.jp/cshpc/index_en.html" target="_blank"> <u>Computational Science and High-Performance Computing Laboratory</u></a> at the Earthquake Research Institute, The University of Tokyo — on an independent research initiative. We're developing a data-driven, <a href="https://doi.org/10.5610/jaee.25.4_164" target="_blank"><u>HPC-enhanced agent-based economic simulator</u></a> capable of efficiently simulating large economies at a 1:1 scale. While the framework has broad applications, our primary focus is on estimating the economic impacts of disasters, with the goal of informing policies that accelerate post-disaster recovery.
+                    </p>
+                    <p>
+                        In 2022, I worked as a research fellow with the <a href="https://emi-megacities.org/" target="_blank"><u>Earthquakes and Megacities Initiative (EMI)</u></a>, collaborating with an international team of researchers, engineers, policymakers, and disaster management professionals on the Climate and Disaster Risk Assessment (CDRA) for Quezon City, Philippines. My primary role focused on the computational analysis of shelter needs and evacuation planning citywide, contributing to the development of the Roadmap and Tools for Managing Complex Emergencies—a key component of the city's disaster preparedness strategy.
+                    </p>
+                    <p>                
+                        Regarding my industry experience, I previously worked as a Structural Engineer at the Manila office of <a href="https://www.jgc.com/en/" target="_blank"><u>JGC Holdings Corporation</u></a> from 2019 to 2021, where I focused on the analysis and design of oil and gas facilities, as well as the development of structural design and automation tools. I am also a licensed Civil Engineer and Master Plumber in the Philippines. Between 2018 and 2021, I occasionally took on freelance projects involving the design of residential houses and the preparation of building plans and permit documents.
+                    </p>
+                    <p>
+                        For inquiries, consulting, collaborations, or public engagement, feel free to reach out at <a href="mailto:jlpanganiban.ce@gmail.com"><u>jlpanganiban.ce@gmail.com</u></a> or through the contact form on this website.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <span class="univ">The University of Tokyo</span>
+                        <span class="degree">M.Eng. in Civil Engineering, <em>MEXT Scholarship Awardee</em></span>
+                        <!-- <span class="spec">Specialization: Computational Science and HPC</span> -->
+                    </li>
+                    <li>
+                        <span class="univ">University of the Philippines</span>
+                        <span class="degree">B.Sc. in Civil Engineering, <em>cum laude</em></span>
+                        <!-- <span class="spec">Specialization: AI applications in engineering</span> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="interests">
+                <h3>Research Interests</h3>
+                <ul>
+                    <li>Computational modeling and simulation</li>
+                    <li>Data-driven approaches</li>
+                    <li>Complex systems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news-section">
+        <h2>News</h2>
+        <div class="news-container">
+    
+            <div class="news-entry">
+                <div class="news-date">2025/04/01</div>
+                <div class="news-content">
+                    <h3 class="news-title">New Website Deployed</h3>
+                    <p>The new website is up and deployed.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2025/03/25</div>
+                <div class="news-content">
+                    <h3 class="news-title">Paper Published in JJAEE</h3>
+                    <p>Our paper on the development of an agent-based economic simulator for high-resolution simulations of
+                        post-disaster economies was published in the Journal of Japan Association for Earthquake
+                        Engineering.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2025/03/01</div>
+                <div class="news-content">
+                    <h3 class="news-title">Abstract Accepted at CEF 2025</h3>
+                    <p>Co-authored a paper on the enhancement of an agent-based economic simulator using high-performance
+                        computing, to be presented in the International Conference on Computing in Economics and Finance (Santiago, Chile).</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2024/12/16</div>
+                <div class="news-content">
+                    <h3 class="news-title">Paper Accepted at COMPDYN 2025</h3>
+                    <p>My research on discrete element modeling of a patented low-cost seismic isolation system was accepted
+                        for presentation at the International Conference on Computational Dynamics for Structural and
+                        Earthquake Engineering (Rhodes Island, Greece).</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2024/10/07</div>
+                <div class="news-content">
+                    <h3 class="news-title">Participated in Antalpha ICAIF 2024 Market Simulation Competition</h3>
+                    <p>Took part in the AI for Finance competition on crypto market simulation for risk estimation.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2024/08/24</div>
+                <div class="news-content">
+                    <h3 class="news-title">Joined Governor’s Cup Open Data Hackathon (Tokyo)</h3>
+                    <p>Participated in the open data hackathon hosted by the Tokyo Metropolitan Government.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2024/02/15</div>
+                <div class="news-content">
+                    <h3 class="news-title">Conference Presentation at ADB Big Data Conference</h3>
+                    <p>Presented research on agent-based economic simulations utilizing firm-level data at the International
+                        Conference: Big Data for Disaster Response and Management in Asia and the Pacific, hosted by the
+                        Asian Development Bank.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2023/11/01</div>
+                <div class="news-content">
+                    <h3 class="news-title">Started New Role as Research Engineer at Takeuchi Construction Inc.</h3>
+                    <p>Joined the R&D team to work on computational modeling and simulation of patented civil engineering
+                        technologies.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2023/09/29</div>
+                <div class="news-content">
+                    <h3 class="news-title">Research Talk at University of the Philippines</h3>
+                    <p>Presented various works on high-performance computing applications in civil engineering at the
+                        Department of Civil Engineering, University of the Philippines.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2023/09/25</div>
+                <div class="news-content">
+                    <h3 class="news-title">Completed Master's Degree at the University of Tokyo</h3>
+                    <p>Graduated with a Master’s in Civil Engineering, specializing in computational science and
+                        high-performance computing.</p>
+                </div>
+            </div>
+    
+            <div class="news-entry">
+                <div class="news-date">2023/02/25</div>
+                <div class="news-content">
+                    <h3 class="news-title">Guest Speaker at AFSJ Event</h3>
+                    <p>Spoke at an event by the Association of Filipino Students in Japan about life in Japan as an
+                        international student researcher.</p>
+                </div>
+            </div>
+
+            <button id="load-more-news" class="read-more-btn">Show More</button>
+
+        </div>
+    </section>
+
+    <?php include 'footer.php'; ?>
+  
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
