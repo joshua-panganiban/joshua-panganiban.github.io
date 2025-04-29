@@ -203,6 +203,10 @@ body.dark-mode .timeline::after{
         font-size: 0.85rem;
     }
 
+    .show-more-btn {
+        font-size: 0.85rem;
+    }
+
     .right-container{
         left: 0;
     }
