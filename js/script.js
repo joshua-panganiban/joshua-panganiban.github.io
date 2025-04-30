@@ -84,7 +84,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // News Section ------------------------------------------------//
 // See more feature in mobile mode
-if (window.location.pathname.endsWith('index.html')) {
+if (
+  window.location.pathname === '/' ||
+  window.location.pathname.endsWith('index.html')
+) {
   document.addEventListener("DOMContentLoaded", () => {
     const entries = document.querySelectorAll(".news-entry");
     const loadMoreBtn = document.getElementById("load-more-news");
