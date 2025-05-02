@@ -77,9 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if (isIndexPage) {
     aboutLink.setAttribute('href', '#about'); 
-  } else {
-    aboutLink.setAttribute('href', './index.html#about'); 
-  }
+  } 
 });
 
 // News Section ------------------------------------------------//
