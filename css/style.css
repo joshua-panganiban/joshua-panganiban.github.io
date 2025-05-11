@@ -254,11 +254,15 @@ footer.dark-mode {
     gap: 0.25rem;
 }
 
+.footer-social .social-text {
+    display: none;
+}
+
 .footer-social-links {
     display: flex;
     flex-direction: column;
     gap: 0.25rem; 
-  }
+}
 
 .footer-social a {
     display: inline-flex;
