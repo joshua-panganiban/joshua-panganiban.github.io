@@ -69,7 +69,7 @@ body.dark-mode .publication a {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .research-section {
         padding: 1rem 2rem 1rem;
     }
