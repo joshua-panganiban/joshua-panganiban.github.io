@@ -58,7 +58,7 @@ body.dark-mode .news-container{
     margin-right: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .news-section {
         padding: 3rem 2rem;
         margin: 0 auto;
