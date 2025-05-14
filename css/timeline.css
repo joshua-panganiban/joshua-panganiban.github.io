@@ -182,7 +182,7 @@ body.dark-mode .timeline::after{
     margin-bottom: 0.5em;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
     .timeline{
         margin: 50px auto;
         max-width: 100%;
