@@ -20,20 +20,20 @@ function loadContent() {
 
       const savedTheme = localStorage.getItem('theme');
       if (savedTheme === 'dark') {
-        initParticles(true);
+        //initParticles(true);
         body.classList.add('dark-mode');
         footer.classList.add('dark-mode');
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
       }
       else {
-        initParticles(false)
+        //initParticles(false)
       }
 
       modeToggle.addEventListener('click', () => {
         const isDark = body.classList.toggle('dark-mode');
         footer.classList.toggle('dark-mode');
-        initParticles(isDark);
+        //initParticles(isDark);
 
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
 
