@@ -180,13 +180,13 @@ function initParticles(isDarkMode) {
   particlesJS("particles-js", {
     "particles": {
       "number": {
-        "value": 80,
+        "value": 100,
         "density": {
           "enable": true,
           "value_area": 800
         }
       },
-      "color": { "value": isDarkMode ? '#ffffff' : '#444444' },
+      "color": { "value": isDarkMode ? '#ffffff' : '#000000' },
       "shape": {
         "type": "circle",
         "stroke": { "width": 0, "color": "#000000" },
@@ -204,7 +204,7 @@ function initParticles(isDarkMode) {
       "line_linked": {
         "enable": true,
         "distance": 100,
-        "color": isDarkMode ? '#ffffff' : '#444444',
+        "color": isDarkMode ? '#ffffff' : '#000000',
         "opacity": 0.4,
         "width": 1
       },
