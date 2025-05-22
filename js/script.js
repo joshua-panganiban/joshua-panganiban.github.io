@@ -20,15 +20,20 @@ function loadContent() {
 
       const savedTheme = localStorage.getItem('theme');
       if (savedTheme === 'dark') {
+        initParticles(true);
         body.classList.add('dark-mode');
         footer.classList.add('dark-mode');
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
       }
+      else {
+        initParticles(false)
+      }
 
       modeToggle.addEventListener('click', () => {
         const isDark = body.classList.toggle('dark-mode');
         footer.classList.toggle('dark-mode');
+        initParticles(isDark);
 
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
 
@@ -75,9 +80,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const isIndexPage = window.location.pathname.includes('index.html'); 
   const aboutLink = document.getElementById('about-link');
   
-  if (isIndexPage) {
-    aboutLink.setAttribute('href', '#about'); 
-  } 
+//  if (isIndexPage) {
+//    aboutLink.setAttribute('href', '#about'); 
+//  } 
 });
 
 // News Section ------------------------------------------------//
@@ -160,5 +165,68 @@ if (window.location.pathname.endsWith('contact.html')) {
     document.getElementById("captcha-warning").style.display = "none";
     captchaVerified = true;
   }
+
+}
+
+
+// Particles ------------------------------------------------//
+function initParticles(isDarkMode) {
+  // Destroy existing instance if it exists
+  if (window.pJSDom && window.pJSDom.length) {
+    window.pJSDom[0].pJS.fn.vendors.destroypJS();
+    window.pJSDom = [];
+  }
+
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": { "value": isDarkMode ? '#ffffff' : '#444444' },
+      "shape": {
+        "type": "circle",
+        "stroke": { "width": 0, "color": "#000000" },
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": { "enable": false }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": { "enable": false }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 100,
+        "color": isDarkMode ? '#ffffff' : '#444444',
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 2,
+        "direction": "none",
+        "out_mode": "out"
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": { "enable": true, "mode": "repulse" },
+        "onclick": { "enable": true, "mode": "push" }
+      },
+      "modes": {
+        "repulse": { "distance": 100 },
+        "push": { "particles_nb": 4 }
+      }
+    },
+    "retina_detect": true
+  });
 
 }
