@@ -26,9 +26,9 @@ function loadContent() {
         icon.classList.remove('fa-moon');
         icon.classList.add('fa-sun');
       }
-      else {
+      //else {
         //initParticles(false)
-      }
+      //}
 
       modeToggle.addEventListener('click', () => {
         const isDark = body.classList.toggle('dark-mode');
